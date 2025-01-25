@@ -4,20 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7612ec74-5af9-4a1b-897a-ad5a206741c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/db/srp/problem/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/db/srp/problem/EmployeeManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/db/srp/problem/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/db/srp/solution/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/db/srp/solution/EmployeeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/db/srp/solution/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/db/srp/solution/PaySlipPrinter.java" afterDir="false" />
+    <list default="true" id="7612ec74-5af9-4a1b-897a-ad5a206741c1" name="Changes" comment="SRP - Single Responsibility Principle">
+      <change afterPath="$PROJECT_DIR$/src/main/java/db/ocp/problem/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/db/ocp/problem/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/db/ocp/problem/Paint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/db/ocp/problem/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/db/ocp/problem/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/db/ocp/solution/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/db/ocp/solution/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/db/ocp/solution/Paint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/db/ocp/solution/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/db/ocp/solution/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/db/ocp/solution/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +33,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ezat141&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ezat141/design-principles.git&quot;,
+    &quot;accountId&quot;: &quot;ba2fdd8c-9e70-41d5-8001-b474a91ff596&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2s7JGtrhdiRF5FldhPD7FS0Zlfi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,6 +57,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.db.ocp.solution.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -61,10 +73,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="db.ocp.solution" />
       <recent name="db.srp.solution" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.db.ocp.solution.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="db.srp.solution.Main" />
       <module name="Design-Principles" />
@@ -78,8 +91,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="db.ocp.solution.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="db.ocp.solution.Main" />
+      <module name="Design-Principles" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="db.ocp.solution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.db.ocp.solution.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -100,11 +127,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737800588878</updated>
-      <workItem from="1737800590023" duration="1575000" />
+      <workItem from="1737800590023" duration="2508000" />
+      <workItem from="1737826815489" duration="1691000" />
     </task>
+    <task id="LOCAL-00001" summary="SRP - Single Responsibility Principle">
+      <option name="closed" value="true" />
+      <created>1737805431722</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737805431722</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="SRP - Single Responsibility Principle" />
+    <option name="LAST_COMMIT_MESSAGE" value="SRP - Single Responsibility Principle" />
   </component>
 </project>
